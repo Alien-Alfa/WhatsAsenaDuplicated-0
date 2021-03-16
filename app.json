@@ -41,17 +41,17 @@
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "*server is updating so the group will be muted* ~TOXIC 4L!3N"
         },
         "UNMUTE_MESSAGE": {
             "description": "Customizable Unmute Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "the server has been updated now we can talk ~TOXIC 4L!3N"
         },
         "WORK_TYPE": {
             "description": "WhatsAsena Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
-            "value": "private"
+            "value": "public"
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku APP Name.",
@@ -74,22 +74,22 @@
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "this group will never open for you"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "ok guys my days are over so, I am leaving. bye"
         },
         "PROMOTE_MESSAGE": {
             "description": "Customizable Promote Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "i am giving you the responsibility"
         },
         "DEMOTE_MESSAGE": {
             "description": "Customizable Demote Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "you are not worthy enough to rule this group"
         },
         "AFK_MESSAGE": {
             "description": "Customizable AFK Message! Use => default, to change back.",
