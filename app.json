@@ -17,12 +17,12 @@
         "LANGUAGE": {
             "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => IN, Español => ES",
             "required": true,
-            "value": "TR"
+            "value": "EN"
         },
         "HANDLERS": {
             "description": "For commands.",
             "required": true,
-            "value": "^[.!;]"
+            "value": "^[.]"
         },
         "SEND_READ": {
             "description": "Write true if you want to throw seen.",
