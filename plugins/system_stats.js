@@ -39,10 +39,10 @@ else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Tanrı Türk\'ü Korusun. 🐺 Asena Hizmetinde!```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* https://t.me/AsenaSupport\n*Telegram Channel:* https://t.me/asenaremaster' , MessageType.text);
+            await message.client.sendMessage(message.jid,'```Hey bro i am alive 🐺 Asena ```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n```type``` *.asena*```for more commands```' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.ALIVEMSG + '\n*Powered by WhatsAsena*', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.ALIVEMSG + '\n*WhatsAsena mod by TOXIC 4L13N*', MessageType.text);
         }
     }));
 
